@@ -24,7 +24,7 @@ export default class Container extends Component {
                 return item;
             }
         });
-        this.setState({items: updatedItems,},() => {
+        this.setState({items: updatedItems},() => {
             localStorage.setItem("to-do-app", JSON.stringify(this.state.items));
         }
         );
@@ -36,7 +36,7 @@ export default class Container extends Component {
             text: InputText,
             done: false,
         };
-        this.setState({items: [item, ...this.state.items],},() => {
+        this.setState({items: [item, ...this.state.items]},() => {
             localStorage.setItem("to-do-app", JSON.stringify(this.state.items));
         }
         );
@@ -46,15 +46,15 @@ export default class Container extends Component {
         let convertedToOriginal = JSON.parse(storedItems);
         if (storedItems !== null) {
             this.setState({
-                items: convertedToOriginal,
+                items: convertedToOriginal
             });
         }
     }
 
     deleteItem = (id) => {
-        const updatedItem = this.state.items.filter((item) => item.id !== id);
+        const updatedItem = this.state.items.filter(item => item.id !== id);
 
-        this.setState({items: updatedItem,},() => {
+        this.setState({items: updatedItem},() => {
             localStorage.setItem("to-do-app", JSON.stringify(this.state.items));
         }
         );

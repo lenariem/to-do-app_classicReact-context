@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/lenariem/to-do-app_classicReact-context/static/css/main.5d67a9a3.chunk.css",
-    "main.js": "/lenariem/to-do-app_classicReact-context/static/js/main.462336bd.chunk.js",
-    "main.js.map": "/lenariem/to-do-app_classicReact-context/static/js/main.462336bd.chunk.js.map",
-    "runtime-main.js": "/lenariem/to-do-app_classicReact-context/static/js/runtime-main.5ed2d3e0.js",
-    "runtime-main.js.map": "/lenariem/to-do-app_classicReact-context/static/js/runtime-main.5ed2d3e0.js.map",
-    "static/js/2.52695d2e.chunk.js": "/lenariem/to-do-app_classicReact-context/static/js/2.52695d2e.chunk.js",
-    "static/js/2.52695d2e.chunk.js.map": "/lenariem/to-do-app_classicReact-context/static/js/2.52695d2e.chunk.js.map",
-    "index.html": "/lenariem/to-do-app_classicReact-context/index.html",
-    "precache-manifest.54a6fe9672f80516841749f9f761069a.js": "/lenariem/to-do-app_classicReact-context/precache-manifest.54a6fe9672f80516841749f9f761069a.js",
-    "service-worker.js": "/lenariem/to-do-app_classicReact-context/service-worker.js",
-    "static/css/main.5d67a9a3.chunk.css.map": "/lenariem/to-do-app_classicReact-context/static/css/main.5d67a9a3.chunk.css.map",
-    "static/js/2.52695d2e.chunk.js.LICENSE.txt": "/lenariem/to-do-app_classicReact-context/static/js/2.52695d2e.chunk.js.LICENSE.txt"
+    "main.css": "./static/css/main.5d67a9a3.chunk.css",
+    "main.js": "./static/js/main.462336bd.chunk.js",
+    "main.js.map": "./static/js/main.462336bd.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.84878c42.js",
+    "runtime-main.js.map": "./static/js/runtime-main.84878c42.js.map",
+    "static/js/2.52695d2e.chunk.js": "./static/js/2.52695d2e.chunk.js",
+    "static/js/2.52695d2e.chunk.js.map": "./static/js/2.52695d2e.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.015a65f58a1cffd729df750c12f4cbf8.js": "./precache-manifest.015a65f58a1cffd729df750c12f4cbf8.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.5d67a9a3.chunk.css.map": "./static/css/main.5d67a9a3.chunk.css.map",
+    "static/js/2.52695d2e.chunk.js.LICENSE.txt": "./static/js/2.52695d2e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ed2d3e0.js",
+    "static/js/runtime-main.84878c42.js",
     "static/js/2.52695d2e.chunk.js",
     "static/css/main.5d67a9a3.chunk.css",
     "static/js/main.462336bd.chunk.js"

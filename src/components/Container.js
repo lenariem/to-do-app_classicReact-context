@@ -73,7 +73,7 @@ export default class Container extends Component {
                     deleteItem: this.deleteItem,
                     updateItem: this.updateItem,
                     toDones,
-                    toDos,
+                    toDos
                 }}
             >
             {this.props.children}

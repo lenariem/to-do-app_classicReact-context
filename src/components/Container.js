@@ -11,7 +11,7 @@ export default class Container extends Component {
         { text: "create a website", done: true, id: 4 },
         { text: "read a book", done: true, id: 5 },
         { text: "make a call", done: true, id: 6 },
-        { text: "buy a lap top", done: true, id: 7 },
+        { text: "buy a lap top", done: true, id: 7 }
         ],
     };
 
